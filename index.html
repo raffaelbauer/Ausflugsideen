@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ausflugsideen</title> <!-- Titel im Tab-Fenster geändert -->
+    <style>
+        /* Grundlegende Stilgestaltung */
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff; /* Weißer Hintergrund */
+        }
+
+        /* Header-Bereich */
+        .header-background {
+            padding: 20px; /* Abstand um den Inhalt */
+        }
+
+        h1 {
+            font-size: 1.5em; /* Größere Schrift für den Titel */
+            color: rgb(34, 193, 195); /* Zufällige Farbe */
+            text-align: left; /* Links ausrichten */
+        }
+
+        /* Anleitungstext */
+        .instructions {
+            color: #555;
+            font-size: 0.9em;
+            text-align: left; /* Links ausrichten */
+            margin: 10px 0; /* Abstand oben und unten */
+        }
+
+        /* Navigation und Links */
+        nav {
+            text-align: left; /* Links ausrichten */
+            margin: 10px 0; /* Abstand oben und unten */
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        ul li {
+            padding: 5px 0;
+        }
+
+        ul li a, .link-style {
+            text-decoration: none;
+            color: #007acc;
+            font-size: 1em;
+            display: inline-block;
+        }
+
+        /* Schwarz formatierte Einträge */
+        .black-text {
+            color: #000;
+        }
+
+        /* Video-Bereich */
+        video {
+            width: 10%; /* Größe des Videos auf 10 % gesetzt */
+            margin: 10px 0; /* Abstand oben und unten */
+        }
+
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 1.2em; /* Schriftgröße anpassen */
+            }
+            .instructions, ul li a, .link-style {
+                font-size: 0.9em; /* Schriftgröße anpassen */
+            }
+            video {
+                width: 30%; /* Video breiter für Handys */
+            }
+        }
+
+        @media (min-width: 601px) {
+            video {
+                width: 10%; /* Video kleiner für Computer */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header-background"> <!-- Header-Bereich -->
+        <!-- Titelbereich -->
+        <h1>Wenn du vorhast, mit Raffael einen Ausflug zu machen, dann wähle eine von diesen Ausflugsideen aus. Dann kannst du nicht viel falsch machen.</h1>
+
+        <!-- Anleitung -->
+        <p class="instructions">Für genauere Details klicke einfach auf den jeweiligen Namen.</p>
+
+        <!-- Navigation mit Ausflugsideen -->
+        <nav>
+            <ul>
+                <li class="link-style black-text">Am liebsten Europapark</li>
+                <li><a href="https://www.ausflugsziele.ch/winter-ausflug-3/kernkraftwerk-gosgen-werkbesuche-im-winter/" target="_blank">Rundgang im AKW Gösgen</a></li>
+                <li><a href="https://www.sbb.ch/de/freizeit-ferien/ideen/angebot.html/tagesausflug/ramseier-erlebniswelt" target="_blank">Ramseier Erlebniswelt</a></li>
+                <li><a href="https://www.salz.ch/de/standorte/besuchen-sie-das-salzbergwerk-bex" target="_blank">Salzwerk Bex</a></li>
+                <li><a href="https://www.ausflugsziele.ch/news-aktuell/samichlaus-giessen-fuer-kinder-im-house-of-laederach/" target="_blank">Samichlaus Giessen</a></li>
+                <li><a href="https://www.sbb.ch/de/freizeit-ferien/ideen/angebot.html/zuege/fonduefahrt-roter-doppelpfeil" target="_blank">Fonduefahrt im Roten Doppelpfeil «Churchill»</a></li>
+                <li><a href="https://flyandrace.ch" target="_blank">Fly and Race Simulation</a></li>
+                <li><a href="https://lakeside-shooting.ch/de/home" target="_blank">Lakeside Shooting</a></li>
+                <li><a href="https://www.grimselwelt.ch/bahnen/gelmerbahn/" target="_blank">Gelmerbahn</a></li>
+                <li class="black-text">Zuerst mit der Gondel hoch, dann mit dem First Flieger runter, danach eine Fahrt mit dem First Glider, mit den Mountaincarts zur Mittelstation und mit den Trottis runter</li>
+                <li><a href="https://www.jungfrau.ch/de-ch/grindelwaldfirst/" target="_blank">Grindelwald First</a></li>
+                <li><a href="https://pfingstegg.ch" target="_blank">Pfingstegg</a></li>
+                <li><a href="https://www.erlebnisflugplatz.ch/default.shtml" target="_blank">Erlebnisflugplatz Sitterdorf</a></li>
+                <li><a href="https://www.blausee.ch/de/naturpark/" target="_blank">Naturpark Blausee</a></li>
+                <li><a href="https://www.bernaqua.ch" target="_blank">Bernaqua</a></li>
+                <li><a href="https://www.tripadvisor.ch/Attraction_Review-g11712525-d589781-Reviews-Thermalquellen_Brigerbad-Brigerbad_Brig_Canton_of_Valais_Swiss_Alps.html" target="_blank">Thermalquelle Brigerbad</a></li>
+                <li><a href="https://eulenzeit.ch/Veranstaltungen/" target="_blank">Eulenwanderung Häggendorf</a></li>
+                <li class="link-style black-text">Ärebötle</li>
+            </ul>
+        </nav>
+
+        <!-- Video-Bereich -->
+        <h2 style="text-align: left; padding-left: 10px;">Video zum Ärebötle:</h2>
+        <video controls>
+            <source src="Untitled_Project_V1.mp4" type="video/mp4">
+            Dein Browser unterstützt dieses Videoformat nicht.
+        </video>
+    </div>
+</body>
+</html>
