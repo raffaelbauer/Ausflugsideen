@@ -6,50 +6,70 @@
     <title>Ausflugsideen</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
+            background-color: #f7f9fc;
             color: #333;
             margin: 0;
             padding: 0;
-            background-color: #ffffff;
         }
         .header-background {
-            padding: 20px;
+            padding: 40px 20px;
+            background-color: #00bfae; /* Grün */
+            color: white;
+            border-radius: 10px;
+            margin: 20px;
         }
         h1 {
-            font-size: 1.5em;
-            color: rgb(34, 193, 195);
-            text-align: left;
+            font-size: 2em;
+            color: #ffffff;
+            margin: 0;
+            font-weight: bold;
         }
         .instructions {
-            color: #555;
-            font-size: 0.9em;
-            text-align: left;
-            margin: 10px 0;
+            font-size: 1.1em;
+            margin: 20px 0;
+            color: #ececec;
         }
         nav {
-            text-align: left;
-            margin: 10px 0;
+            margin-top: 20px;
         }
         ul {
             list-style-type: none;
             padding: 0;
             margin: 0;
+            display: block; /* Links übereinander stapeln */
         }
         ul li {
-            padding: 5px 0;
+            padding: 10px;
+            margin-bottom: 15px;
         }
         ul li a, .link-style {
             text-decoration: none;
-            color: #007acc;
-            font-size: 1em;
+            color: #ffffff; /* Weiße Schrift */
+            font-size: 1.2em;
             display: inline-block;
+            background-color: #00bfae; /* Grün */
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+            width: 100%;
         }
-        .black-text {
-            color: #000;
+        ul li a:hover, .link-style:hover {
+            background-color: #008f8a; /* Dunkleres Grün */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
-        video {
-            width: 100%; /* Vergrößert das Video */
-            margin: 10px 0;
+        .link-container {
+            margin-top: 40px;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .link-container h2 {
+            font-size: 1.6em;
+            color: #00bfae;
+            margin-bottom: 20px;
         }
     </style>
 </head>
@@ -61,17 +81,23 @@
 
         <nav>
             <ul>
-                <!-- Links hier -->
+                <li><a href="https://eulenzeit.ch/Veranstaltungen/">Eulenwanderung Häggendorf</a></li>
+                <li><a href="https://www.erlebnisflugplatz.ch/default.shtml">Erlebnisflugplatz Sitterdorf</a></li>
+                <li><a href="https://www.blausee.ch/de/naturpark/">Naturpark Blausee</a></li>
+                <li><a href="https://www.sbb.ch/de/freizeit-ferien/ideen/angebot.html/zuege/fonduefahrt-roter-doppelpfeil">Fonduefahrt im Roten Doppelpfeil «Churchill»</a></li>
+                <li><a href="https://www.grimselwelt.ch/bahnen/gelmerbahn/">Gelmerbahn</a></li>
+                <li><a href="https://www.ausflugsziele.ch/winter-ausflug-3/kernkraftwerk-gosgen-werkbesuche-im-winter/">Rundgang im AKW Gösgen</a></li>
+                <li><a href="https://www.sbb.ch/de/freizeit-ferien/ideen/angebot.html/tagesausflug/ramseier-erlebniswelt">Ramseier Erlebniswelt</a></li>
+                <li><a href="https://www.jungfrau.ch/de-ch/grindelwaldfirst/">Grindelwald First Zuerst mit der Gondel hoch, dann mit dem First Flieger runter, danach eine Fahrt mit dem First Glider, mit den Mountaincarts zur Mittelstation und mit den Trottis runter</a></li>
+                <li><a href="https://www.bernaqua.ch">Bernaqua</a></li>
+                <li><a href="https://pfingstegg.ch">Pfingstegg</a></li>
+                <li><a href="https://flyandrace.ch">Fly and Race Simulation</a></li>
+                <li><a href="https://www.tripadvisor.ch/Attraction_Review-g11712525-d589781-Reviews-Thermalquellen_Brigerbad-Brigerbad_Brig_Canton_of_Valais_Swiss_Alps.html">Thermalquelle Brigerbad</a></li>
+                <li><a href="https://www.salz.ch/de/standorte/besuchen-sie-das-salzbergwerk-bex">Salzwerk Bex</a></li>
+                <!-- Aarebötle Link hinzugefügt -->
+                <li><a href="https://youtube.com/shorts/j_bfejtxNjs?feature=shared" target="_blank">Aarebötle</a></li>
             </ul>
         </nav>
-
-        <h2 style="text-align: left; padding-left: 10px;">Video zum Ärebötle:</h2>
-        <video controls>
-            <source src="Untitled_Project_V1.mp4" type="video/mp4">
-            <source src="Untitled_Project_V1.webm" type="video/webm">
-            <source src="Untitled_Project_V1.ogv" type="video/ogg">
-            Dein Browser unterstützt dieses Videoformat nicht.
-        </video>
     </div>
 </body>
 </html>
