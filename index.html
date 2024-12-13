@@ -5,46 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ausflugsideen</title>
     <style>
-        /* Allgemeines Design */
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f0f8ff; /* Hellblau */
+            background-color: #f0f8ff;
             color: #333;
         }
-        
-        /* Header-Design */
+
         header {
-            background: #6EC1E4; /* Blau */
+            background: #6EC1E4;
             color: white;
             padding: 2rem;
             text-align: center;
             border-radius: 0 0 20px 20px;
         }
-        
+
         header h1 {
             font-size: 2rem;
             margin: 0;
         }
-        
+
         main {
             text-align: center;
             padding: 2rem;
         }
 
-        /* Container für die Links */
-        .instructions {
-            font-size: 1.1rem;
-            color: #555;
-            margin-bottom: 2rem;
+        nav {
+            margin: 0 auto;
         }
 
-        /* Liste der Links */
         nav ul {
             list-style-type: none;
             padding: 0;
             margin: 0;
+            display: flex;
+            flex-direction: column; 
+            align-items: center;
         }
 
         nav ul li {
@@ -52,19 +49,17 @@
         }
 
         nav ul li a {
-            display: block;
-            width: 100%;
-            max-width: 400px;
-            padding: 1rem;
+            display: inline-block;
             text-align: center;
-            font-size: 1.2rem;
+            font-size: 1.1rem;
             font-weight: bold;
             color: white;
             text-decoration: none;
             background-color: #6EC1E4;
             border-radius: 8px;
             transition: background-color 0.3s ease;
-            margin: 0 auto;
+            width: 300px; /* Gleiche Breite für alle Buttons */
+            padding: 1rem;
         }
 
         nav ul li a:hover {
@@ -78,40 +73,35 @@
             padding: 1rem;
             margin-top: 2rem;
         }
-
     </style>
 </head>
 <body>
 
-    <!-- Header-Bereich -->
     <header>
         <h1>Wenn du vorhast, mit Raffael einen Ausflug zu machen, dann wähle eine von diesen Ausflugsideen aus. Dann kannst du nicht viel falsch machen.</h1>
     </header>
 
-    <!-- Hauptinhalt -->
     <main>
-        <p class="instructions">Für genauere Details klicke einfach auf den jeweiligen Namen.</p>
         <nav>
             <ul>
+                <li><a href="https://youtube.com/shorts/j_bfejtxNjs?feature=shared" target="_blank">Aarebötle</a></li>
+                <li><a href="https://www.bernaqua.ch">Bernaqua</a></li>
                 <li><a href="https://eulenzeit.ch/Veranstaltungen/">Eulenwanderung Häggendorf</a></li>
                 <li><a href="https://www.erlebnisflugplatz.ch/default.shtml">Erlebnisflugplatz Sitterdorf</a></li>
-                <li><a href="https://www.blausee.ch/de/naturpark/">Naturpark Blausee</a></li>
+                <li><a href="https://flyandrace.ch">Fly and Race Simulation</a></li>
                 <li><a href="https://www.sbb.ch/de/freizeit-ferien/ideen/angebot.html/zuege/fonduefahrt-roter-doppelpfeil">Fonduefahrt im Roten Doppelpfeil «Churchill»</a></li>
                 <li><a href="https://www.grimselwelt.ch/bahnen/gelmerbahn/">Gelmerbahn</a></li>
-                <li><a href="https://www.ausflugsziele.ch/winter-ausflug-3/kernkraftwerk-gosgen-werkbesuche-im-winter/">Rundgang im AKW Gösgen</a></li>
-                <li><a href="https://www.sbb.ch/de/freizeit-ferien/ideen/angebot.html/tagesausflug/ramseier-erlebniswelt">Ramseier Erlebniswelt</a></li>
                 <li><a href="https://www.jungfrau.ch/de-ch/grindelwaldfirst/">Grindelwald First - Zuerst mit der Gondel hoch, dann mit dem First Flieger runter, danach eine Fahrt mit dem First Glider, mit den Mountaincarts zur Mittelstation und mit den Trottis runter</a></li>
-                <li><a href="https://www.bernaqua.ch">Bernaqua</a></li>
+                <li><a href="https://www.blausee.ch/de/naturpark/">Naturpark Blausee</a></li>
                 <li><a href="https://pfingstegg.ch">Pfingstegg</a></li>
-                <li><a href="https://flyandrace.ch">Fly and Race Simulation</a></li>
-                <li><a href="https://www.tripadvisor.ch/Attraction_Review-g11712525-d589781-Reviews-Thermalquellen_Brigerbad-Brigerbad_Brig_Canton_of_Valais_Swiss_Alps.html">Thermalquelle Brigerbad</a></li>
+                <li><a href="https://www.ausflugsziele.ch/winter-ausflug-3/kernkraftwerk-gosgen-werkbesuche-im-winter/">Rundgang im AKW Gösgen</a></li>
                 <li><a href="https://www.salz.ch/de/standorte/besuchen-sie-das-salzbergwerk-bex">Salzwerk Bex</a></li>
-                <li><a href="https://youtube.com/shorts/j_bfejtxNjs?feature=shared" target="_blank">Aarebötle</a></li>
+                <li><a href="https://www.tripadvisor.ch/Attraction_Review-g11712525-d589781-Reviews-Thermalquellen_Brigerbad-Brigerbad_Brig_Canton_of_Valais_Swiss_Alps.html">Thermalquelle Brigerbad</a></li>
+                <li><a href="https://www.sbb.ch/de/freizeit-ferien/ideen/angebot.html/tagesausflug/ramseier-erlebniswelt">Ramseier Erlebniswelt</a></li>
             </ul>
         </nav>
     </main>
 
-    <!-- Footer-Bereich -->
     <footer>
         <p>&copy; 2024 Raffael Bauer. Alle Rechte vorbehalten.</p>
     </footer>
