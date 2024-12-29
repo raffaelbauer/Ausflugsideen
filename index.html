@@ -1,14 +1,92 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ausflugsideen</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #f0f8ff, #d0e7f9);
+            color: #333;
+        }
 
+        header {
+            background: #ff6f61;
+            color: white;
+            padding: 3rem 2rem;
+            text-align: center;
+            border-bottom: 5px solid #fff;
+            border-radius: 0 0 30px 30px;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+            letter-spacing: 2px;
+            font-weight: bold;
+        }
+
+        main {
+            padding: 2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        nav {
+            width: 100%;
+            max-width: 1200px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 1.5rem;
+            justify-items: center;
+        }
+
+        nav ul li {
+            width: 100%;
+        }
+
+        nav ul li a {
+            display: block;
+            text-align: center;
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: white;
+            text-decoration: none;
+            background-color: #ff6f61;
+            border-radius: 15px;
+            transition: transform 0.3s ease, background-color 0.3s ease;
+            padding: 1.5rem;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        nav ul li a:hover {
+            background-color: #e55a49;
+            transform: translateY(-5px);
+        }
+
+        footer {
+            background: #333;
             color: white;
             text-align: center;
-            padding: 1rem;
-            margin-top: 2rem;
+            padding: 2rem;
+            margin-top: 3rem;
+            border-top: 5px solid #fff;
         }
 
         footer a {
             color: white;
             text-decoration: none;
-            margin: 0 1rem;
+            margin: 0 1.5rem;
         }
 
         footer a:hover {
@@ -19,7 +97,7 @@
 <body>
 
     <header>
-        <h1>Wenn du vorhast, mit Raffael einen Ausflug zu machen, dann wähle eine von diesen Ausflugsideen aus. Dann kannst du nicht viel falsch machen.</h1>
+        <h1>Erlebe unvergessliche Ausflüge mit Raffael</h1>
     </header>
 
     <main>
@@ -32,7 +110,7 @@
                 <li><a href="https://flyandrace.ch">Fly and Race Simulation</a></li>
                 <li><a href="https://www.sbb.ch/de/freizeit-ferien/ideen/angebot.html/zuege/fonduefahrt-roter-doppelpfeil">Fonduefahrt im Roten Doppelpfeil «Churchill»</a></li>
                 <li><a href="https://www.grimselwelt.ch/bahnen/gelmerbahn/">Gelmerbahn</a></li>
-                <li><a href="https://www.jungfrau.ch/de-ch/grindelwaldfirst/">Grindelwald First</a></li>
+                <li><a href="https://www.jungfrau.ch/de-ch/grindelwaldfirst/">Grundelwald First - Zuerst mit der Gondel hoch, dann mit dem First Flieger runter</a></li>
                 <li><a href="https://www.blausee.ch/de/naturpark/">Naturpark Blausee</a></li>
                 <li><a href="https://pfingstegg.ch">Pfingstegg</a></li>
                 <li><a href="https://www.ausflugsziele.ch/winter-ausflug-3/kernkraftwerk-gosgen-werkbesuche-im-winter/">Rundgang im AKW Gösgen</a></li>
@@ -44,5 +122,9 @@
     </main>
 
     <footer>
-    <p>&copy; 2024 Raffael Bauer. Alle Rechte vorbehalten.</p>
-    <p><a href="https://raffaelbauer.github.io/Impressum/
+        <p>&copy; 2024 Raffael Bauer. Alle Rechte vorbehalten.</p>
+        <p><a href="https://raffaelbauer.github.io/Impressum/">Impressum</a> | <a href="https://raffaelbauer.github.io/Datenschutzbestimmungen/">Datenschutzbestimmungen</a></p>
+    </footer>
+
+</body>
+</html>
