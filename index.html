@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ausflugsideen</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
     <style>
         body {
             font-family: 'Roboto', sans-serif;
             margin: 0;
             padding: 0;
-            background: linear-gradient(to bottom, #f0f8ff, #d0e7f9);
-            color: #333;
+            background: linear-gradient(to bottom, #e3f2fd, #bbdefb);
+            color: #222;
         }
 
         header {
@@ -55,6 +56,37 @@
             width: 100%;
         }
 
+        /* Europa-Park Spezialdesign */
+        .europa-park {
+            background: linear-gradient(135deg, #ffd700, #ff9800);
+            color: black;
+            font-size: 1.5rem;
+            font-weight: bold;
+            border: 3px solid #ffeb3b;
+            position: relative;
+            padding: 2rem;
+        }
+
+        .europa-park::before {
+            content: "👑 #1 👑";
+            position: absolute;
+            top: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #ffd700;
+            color: black;
+            font-size: 1.2rem;
+            font-weight: bold;
+            padding: 5px 15px;
+            border-radius: 15px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .europa-park:hover {
+            background: linear-gradient(135deg, #ff9800, #ffd700);
+            transform: scale(1.05);
+        }
+
         nav ul li a {
             display: block;
             text-align: center;
@@ -67,10 +99,12 @@
             transition: transform 0.3s ease, background-color 0.3s ease;
             padding: 1.5rem;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 90%;
+            margin: auto;
         }
 
         nav ul li a:hover {
-            background-color: #e55a49;
+            background-color: #d94e3b;
             transform: translateY(-5px);
         }
 
@@ -103,20 +137,29 @@
     <main>
         <nav>
             <ul>
+                <li><a href="https://www.europapark.de/de" class="europa-park">Europa-Park</a></li>
                 <li><a href="https://youtube.com/shorts/j_bfejtxNjs?feature=shared">Aarebötle</a></li>
+                <li><a href="https://www.aquabasilea.ch/">Aquabasilea</a></li>
                 <li><a href="https://www.bernaqua.ch">Bernaqua</a></li>
+                <li><a href="https://www.sbb.ch/de/freizeit-ferien/ideen/angebot.html/tagesausflug/ramseier-erlebniswelt">Ramseier Erlebniswelt</a></li>
+                <li><a href="https://www.tripadvisor.ch/Attraction_Review-g188049-d10020551-Reviews-Basel_Autumn_Fair-Basel.html">Basler Herbstmesse</a></li>
                 <li><a href="https://eulenzeit.ch/Veranstaltungen/">Eulenwanderung Häggendorf</a></li>
                 <li><a href="https://www.erlebnisflugplatz.ch/default.shtml">Erlebnisflugplatz Sitterdorf</a></li>
                 <li><a href="https://flyandrace.ch">Fly and Race Simulation</a></li>
                 <li><a href="https://www.sbb.ch/de/freizeit-ferien/ideen/angebot.html/zuege/fonduefahrt-roter-doppelpfeil">Fonduefahrt im Roten Doppelpfeil «Churchill»</a></li>
                 <li><a href="https://www.grimselwelt.ch/bahnen/gelmerbahn/">Gelmerbahn</a></li>
-                <li><a href="https://www.jungfrau.ch/de-ch/grindelwaldfirst/">Grundelwald First</a></li>
+                <li><a href="https://www.jungfrau.ch/de-ch/grindelwaldfirst/">Grindelwald First</a></li>
                 <li><a href="https://www.blausee.ch/de/naturpark/">Naturpark Blausee</a></li>
                 <li><a href="https://pfingstegg.ch">Pfingstegg</a></li>
-                <li><a href="https://www.ausflugsziele.ch/winter-ausflug-3/kernkraftwerk-gosgen-werkbesuche-im-winter/">Rundgang im AKW Gösgen</a></li>
+                <li><a href="https://www.tripadvisor.ch/Attraction_Review-g188049-d2147213-Reviews-Dreilaendereck_Border_Triangle-Basel.html">Dreiländereck Basel</a></li>
                 <li><a href="https://www.salz.ch/de/standorte/besuchen-sie-das-salzbergwerk-bex">Salzwerk Bex</a></li>
+                <li><a href="https://www.tripadvisor.ch/Attraction_Review-g188064-d244427-Reviews-Museum_of_Transport-Lucerne.html">Verkehrshaus Luzern</a></li>
+                <li><a href="https://www.tripadvisor.ch/Attraction_Review-g5123304-d2643351-Reviews-Museum_Fur_Musikautomaten-Seewen.html">Museum für Musikautomaten Seewen</a></li>
+                <li><a href="https://www.ausflugsziele.ch/winter-ausflug-3/kernkraftwerk-gosgen-werkbesuche-im-winter/">Rundgang im AKW Gösgen</a></li>
+                <li><a href="https://www.tripadvisor.ch/Attraction_Review-g188049-d3199897-Reviews-Rundfahrt_im_Oldtimertram-Basel.html">Rundfahrt im Oldtimertram Basel</a></li>
+                <li><a href="https://www.tripadvisor.ch/Attraction_Review-g188112-d196039-Reviews-Swiss_Science_Center_Technorama-Winterthur.html">Technorama Winterthur</a></li>
+                <li><a href="https://www.tripadvisor.ch/Attraction_Review-g1932651-d10077346-Reviews-Three_Countries_Bridge-Huningue_Haut_Rhin_Grand_Est.html">Dreiländerbrücke Huningue</a></li>
                 <li><a href="https://www.tripadvisor.ch/Attraction_Review-g11712525-d589781-Reviews-Thermalquellen_Brigerbad-Brigerbad_Brig_Canton_of_Valais_Swiss_Alps.html">Thermalquelle Brigerbad</a></li>
-                <li><a href="https://www.sbb.ch/de/freizeit-ferien/ideen/angebot.html/tagesausflug/ramseier-erlebniswelt">Ramseier Erlebniswelt</a></li>
             </ul>
         </nav>
     </main>
